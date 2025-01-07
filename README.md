@@ -12,6 +12,8 @@ This addon is a modified version based on NSACloud's RE Chain Editor.
  - Can create new ctc & ccl files entirely within Blender.
  - Presets of chain configurations can be saved and shared.
 
+
+
  - TO DO
  - 完成汉化
  - 添加更多预设
