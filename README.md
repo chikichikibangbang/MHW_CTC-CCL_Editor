@@ -11,13 +11,10 @@ This addon is a modified version based on NSACloud's RE Chain Editor.
  - Allows for importing, editing and exporting MHW ctc & ccl files.
  - Can create new ctc & ccl files entirely within Blender.
  - Presets of chain configurations can be saved and shared.
-
-
-
  - TO DO
- - 完成汉化
- - 添加更多预设
- - 添加按预设碰撞体创建CCL对象的功能
+     - 完成汉化
+     - 添加更多预设
+     - 添加按预设碰撞体创建CCL对象的功能
 
 ## Change Log
  
