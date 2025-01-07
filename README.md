@@ -27,7 +27,7 @@ First test release.
 * [Easier Mod3 Importer Exporter](https://github.com/chikichikibangbang/Easier_Mod3_Importer_Exporter)
 
 ## Installation
-Download the addon by clicking Code > Download Zip.
+Download the addon by clicking Release.(If you want to download the source code, please change the name of the archive to "MHW_CTC_CCL_Editor")
 
 In Blender, go to Edit > Preferences > Addons, then click "Install" in the top right.
 
