@@ -2,6 +2,8 @@
 
 This addon allows for importing, editing and exporting **ctc** & **ccl** files in **Monster Hunter World**.
 
+This addon is a modified version based on NSACloud's RE Chain Editor.  
+
 ![Blender Preview](https://github.com/user-attachments/assets/b8656635-cb54-4d55-b921-db5ae2be02ab)
 
 ## Features
