@@ -4,6 +4,8 @@ This addon allows for importing, editing and exporting **ctc** & **ccl** files i
 
 This addon is a modified version based on NSACloud's RE Chain Editor.  
 
+**If you want to download the source code, please change the name of the archive to "MHW_CTC_CCL_Editor.**
+
 ![Blender Preview1](https://github.com/user-attachments/assets/b8656635-cb54-4d55-b921-db5ae2be02ab)
 ![Blender Preview2](https://github.com/user-attachments/assets/20d699cf-ee8e-49ac-9231-7a6a069cdf85)
 
