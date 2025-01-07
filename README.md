@@ -17,6 +17,7 @@ First test release.
 
 ## Requirements
 * [Blender 2.93 or higher](https://www.blender.org/download/)
+* [Easier Mod3 Importer Exporter](https://github.com/chikichikibangbang/Easier_Mod3_Importer_Exporter)
 
 ## Installation
 Download the addon by clicking Code > Download Zip.
