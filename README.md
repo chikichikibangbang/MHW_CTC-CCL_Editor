@@ -14,6 +14,7 @@ This addon is a modified version based on NSACloud's RE Chain Editor.
  - TO DO
      - 添加更多预设
      - 添加按预设碰撞体创建CCL对象的功能
+     - 修复存在ctc对象时无法成功导出mod3模型的问题
 
 ## Change Log
 
