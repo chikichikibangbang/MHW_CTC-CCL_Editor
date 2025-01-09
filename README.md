@@ -61,3 +61,8 @@ To be added.
 - [AsteriskAmpersand](https://github.com/AsteriskAmpersand) - Original MHW CTC Editor
 - [CG Cookie](https://github.com/CGCookie) - Addon updater module
 - [xzhuah](https://github.com/xzhuah) - BlenderAddonPackageTool
+
+ ## 一些中文内容
+ * B站id：不太亮的诸葛亮
+ * 怪猎mod作者交流群：640945651
+ 
