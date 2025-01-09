@@ -4,8 +4,6 @@ This addon allows for importing, editing and exporting **ctc** & **ccl** files i
 
 This addon is a modified version based on NSACloud's RE Chain Editor.  
 
-**If you want to download the source code, please change the name of the archive to "MHW_CTC_CCL_Editor, otherwise the plugin will report an error.**
-
 ![Blender Preview1](https://github.com/user-attachments/assets/b8656635-cb54-4d55-b921-db5ae2be02ab)
 ![Blender Preview2](https://github.com/user-attachments/assets/20d699cf-ee8e-49ac-9231-7a6a069cdf85)
 
@@ -14,22 +12,28 @@ This addon is a modified version based on NSACloud's RE Chain Editor.
  - Can create new ctc & ccl files entirely within Blender.
  - Presets of chain configurations can be saved and shared.
  - TO DO
-     - 完成汉化
      - 添加更多预设
      - 添加按预设碰撞体创建CCL对象的功能
 
 ## Change Log
+
+### V1 - 1/9/2025
+
+* Second test release.
+* Complete Chinese translation.
+* Fixed an issue where addon installation failed due to direct download of source code.
+* Fixed the issue of automatic update module errors.
  
 ### V1 - 1/7/2025
 
-First test release.
+* First test release.
 
 ## Requirements
 * [Blender 2.93 or higher](https://www.blender.org/download/)
 * [Easier Mod3 Importer Exporter](https://github.com/chikichikibangbang/Easier_Mod3_Importer_Exporter)
 
 ## Installation
-Download the addon by clicking Release.(**If you want to download the source code, please change the name of the archive to "MHW_CTC_CCL_Editor"**)
+Download the addon by clicking Code > Download Zip.
 
 In Blender, go to Edit > Preferences > Addons, then click "Install" in the top right.
 
