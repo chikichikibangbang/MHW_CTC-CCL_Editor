@@ -245,6 +245,7 @@ class CreateChainFromBone(bpy.types.Operator):
                 for boneIndex, bone in enumerate(ChainList):
                     #调用createEmpty函数，创建一个空物体，并将其添加到刚创建的CTC Entries集合中，并以刚创建的CTC Settings空物体为父级对象
                     nodeObj = createEmpty(bone.name, [("TYPE", "CTC_NODE")], nodeParent, ctcEntryCollection)
+                    # nodeObj = createEmpty("BoneFunction_" + bone.name.split("_")[-1], [("TYPE", "CTC_NODE")], nodeParent, ctcEntryCollection)
 
                     node = CTCNodeData()
                     getCTCNode(node, nodeObj)
@@ -1043,7 +1044,14 @@ class CTCBoneVerticalAlignment(bpy.types.Operator):
         return context.active_object is not None
 
     def execute(self, context):
-        ArmatureName = bpy.context.active_object.data.name
+        ArmatureObj = bpy.context.active_object
+        ArmatureName = ArmatureObj.data.name
+        bpy.ops.object.mode_set(mode='OBJECT')
+        bpy.context.view_layer.objects.active = ArmatureObj
+        ArmatureObj.select_set(True)
+        # bpy.context.view_layer.objects.active = bpy.data.objects[ArmatureName]
+        bpy.ops.object.transform_apply(location=True, rotation=True, scale=True)
+        bpy.ops.object.mode_set(mode='POSE')
         #获取姿态模式选中的骨骼
         selected = bpy.context.selected_pose_bones
         ChainList = []
@@ -1085,7 +1093,7 @@ class CTCTransferBoneSettings(bpy.types.Operator):
     )
     Scene.use_bonealign = BoolProperty(
         name="Bone Vertical Alignment",
-        description="Align bones in a vertical and upward direction",
+        description="Align bones in a vertical and upward direction.\nNote this operation will apply all transformations of the current armature",
         default=True
     )
 
