@@ -131,7 +131,7 @@ dictionary = {
         ("*", "Add mod3 bone properties to normal bones"): "给一般骨骼添加mod3骨骼属性",
 
         ("*", "Bone Vertical Alignment"): "骨骼竖直校准",
-        ("*", "Align bones in a vertical and upward direction"): "将骨骼校准为竖直向上的方向",
+        ("*", "Align bones in a vertical and upward direction.\nNote this operation will apply all transformations of the current armature"): "将骨骼校准为竖直向上的方向.\n注意此操作会强制应用当前骨架的全部变换",
 
         ("Operator", "Transfer Bone Settings"): "转化骨骼设置",
         ("*", "Settings for detailed operation items"): "设置转化骨骼的具体操作项",
