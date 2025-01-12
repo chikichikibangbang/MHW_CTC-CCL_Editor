@@ -15,10 +15,13 @@ This addon is a modified version based on NSACloud's RE Chain Editor.
      - 添加更多预设
      - 添加按预设碰撞体创建CCL对象的功能
      - 修复存在ctc对象时无法成功导出mod3模型的问题
-     - 修复摆直骨骼功能在不同骨架变换时方向不同的问题
-     - 修复单球体碰撞导出ccl文件之后，文件中的碰撞半径会缩放0.01倍的问题
 
 ## Change Log
+
+### V1 - 1/13/2025
+
+* Fixed an issue where when exporting a single sphere collision to a ccl file, the collision radius value will be scaled by 0.01 times.
+* Fixed an issue that the function of "Bone Vertical Alignment" could not take effect correctly.
 
 ### V1 - 1/9/2025
 
