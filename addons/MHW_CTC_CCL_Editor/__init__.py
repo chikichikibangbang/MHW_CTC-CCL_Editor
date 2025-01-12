@@ -23,7 +23,7 @@ bl_info = {
     "name": "MHW CTC & CCL Editor",
     "author": "NSA Cloud, AsteriskAmpersand, 诸葛不太亮",
     "blender": (2, 93, 0),
-    "version": (1, 0),
+    "version": (1, 1),
     "description": "Import, edit and export MHW ctc & ccl files.",
     "warning": "",
     "wiki_url": "https://github.com/chikichikibangbang/MHW_CTC_CCL_Editor",
