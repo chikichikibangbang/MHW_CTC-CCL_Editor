@@ -975,15 +975,15 @@ def getCCLCollision(CCLCollisionData,targetObject):
     targetObject.ccl_collision.EndColOffset[2] = CCLCollisionData.endPosZ
 
 def setCCLCollisionData(CCLCollisionData,targetObject):
-    CCLCollisionData.ColRadius = targetObject.scale[0]
+    CCLCollisionData.ColRadius = 100*targetObject.scale[0]
 
     CCLCollisionData.startPosX = 100*targetObject.location[0]
     CCLCollisionData.startPosY = 100*targetObject.location[1]
     CCLCollisionData.startPosZ = 100*targetObject.location[2]
 
-    CCLCollisionData.endPosX = targetObject.ccl_collision.EndColOffset[0]
-    CCLCollisionData.endPosY = targetObject.ccl_collision.EndColOffset[1]
-    CCLCollisionData.endPosZ = targetObject.ccl_collision.EndColOffset[2]
+    CCLCollisionData.endPosX = 100*targetObject.ccl_collision.EndColOffset[0]
+    CCLCollisionData.endPosY = 100*targetObject.ccl_collision.EndColOffset[1]
+    CCLCollisionData.endPosZ = 100*targetObject.ccl_collision.EndColOffset[2]
 
     if targetObject.get("TYPE", None) != "CCL_CAPSULE":
         boneName = targetObject.constraints["BoneName"].subtarget
